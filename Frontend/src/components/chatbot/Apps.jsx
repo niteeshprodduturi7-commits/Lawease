@@ -189,8 +189,7 @@ import './App.css';
 
 // IMPORTANT: In a real application, never expose your API key on the frontend.
 // This should be moved to a secure backend server.
-const API_KEY = "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";
-
+const API_KEY = "YOUR_GROQ_API_KEY";
 const SPEECH_LANG_MAP = {
   English: 'en-IN',
   Hindi: 'hi-IN',
