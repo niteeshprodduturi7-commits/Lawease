@@ -1,0 +1,5 @@
+
+.page-container{ max-width:1200px; margin:0 auto; padding:1.25rem; }
+.page-container h1{ color:var(--accent, #7c3aed); margin-bottom:.5rem; }
+.legal-advice-cards{ display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
+  

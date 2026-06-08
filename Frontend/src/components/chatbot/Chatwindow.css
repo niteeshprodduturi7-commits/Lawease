@@ -1,0 +1,13 @@
+.chatWindow {
+    background-color: rgb(1, 5, 6); /* Keep or change the background color as needed */
+    padding: 0; /* Remove padding for full-screen effect */
+    border: none; /* Remove border for a clean full-screen look */
+    border-radius: 0; /* Remove border radius */
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    position: fixed; /* Fix the chat window to the screen */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    z-index: 9999; /* Ensure it appears above other elements */
+}

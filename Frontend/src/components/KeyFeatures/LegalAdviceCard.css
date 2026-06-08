@@ -1,0 +1,15 @@
+
+.legal-advice-card {
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1rem;
+  background: linear-gradient(180deg,#fff,#fbfdff);
+  box-shadow: 0 12px 30px rgba(2,6,23,0.06);
+  transition: transform .28s cubic-bezier(.2,.9,.3,1), box-shadow .28s cubic-bezier(.2,.9,.3,1);
+}
+.legal-advice-card:hover{ transform: translateY(-6px); box-shadow: 0 20px 50px rgba(2,6,23,0.10); }
+
+.legal-advice-card h2{ color:#0f172a; margin:0 0 .5rem; font-size:1.05rem; }
+.legal-advice-card p{ color:#475569; margin:0 0 .75rem; }
+.legal-advice-card .date{ color:#94a3b8; font-size:0.85rem; }
+  

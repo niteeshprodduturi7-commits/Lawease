@@ -1,0 +1,16 @@
+/* Appointment card overrides to align with global SaaS theme */
+.law-detail { font-size: 0.98rem; }
+.law-detail h3 { margin: 0; font-size: 1.05rem; }
+.law-detail .muted { color: var(--muted); }
+
+.service-card img { height: 180px; object-fit: cover; border-radius: 10px; }
+
+.login-popup { max-width: 360px; padding: 1rem; text-align: center; }
+
+.btn-primary { padding: 10px 14px; border-radius: 10px; }
+    size:20px;
+
+    padding-bottom:"20px";
+
+    margin-bottom:"20px";
+

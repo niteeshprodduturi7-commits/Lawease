@@ -1,0 +1,30 @@
+/* Modern hero card for Homepage */
+.home-hero{
+  width:100%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(248,250,252,0.98));
+  color:#0b1720;
+  border-radius:14px;
+  padding:48px;
+  box-shadow: 0 20px 40px rgba(2,6,23,0.45);
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:32px;
+  align-items:center;
+}
+
+.home-left h1{font-size:28px;margin:0 0 12px;font-weight:700;letter-spacing:0.6px}
+.home-left p.lead{color:#6b7280;margin:0 0 18px}
+.home-ctas{display:flex;gap:12px}
+.home-ctas .btn{padding:12px 18px;border-radius:10px;font-weight:700}
+.btn-cta{background:linear-gradient(90deg,#06b6d4,#7c3aed);color:#fff;box-shadow:0 12px 30px rgba(124,58,237,0.14)}
+.btn-secondary{background:transparent;border:1px solid rgba(11,23,32,0.06);color:#0b1720}
+
+.home-right{display:flex;align-items:center;justify-content:center}
+.home-right .hero-statement{font-family:'Playfair Display',serif;font-size:36px;line-height:1.02;text-align:center;color:transparent;background:linear-gradient(90deg,#2b8cff,#00bcd4);-webkit-background-clip:text;background-clip:text;font-weight:700}
+
+/* Responsive */
+@media (max-width:900px){
+  .home-hero{grid-template-columns:1fr; padding:28px}
+  .home-right{order:-1;margin-bottom:12px}
+  .home-right .hero-statement{font-size:24px}
+}

@@ -1,0 +1,4 @@
+/* Rights cards use global service-card/service-grid styles */
+.service-card { min-height: 120px; display:flex; flex-direction:column; justify-content:flex-start; }
+.service-card h3 { margin:0; font-size:1.05rem; }
+.service-card .lead { color:var(--muted); font-size:0.98rem; }
