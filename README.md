@@ -50,7 +50,7 @@ LawEase is an AI-powered legal assistance platform designed to help users unders
 * Advanced document intelligence
 * Voice-enabled legal assistant
 
-Author
+##Author
 Niteesh Prodduturi
 
 Note: LawEase was developed as a collaborative team project as part of an academic project.
